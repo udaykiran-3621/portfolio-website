@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vrentika Uday Kiran | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">VUK<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HOME -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">PORTFOLIO</div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="dot"></span> Available for Opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="line-reveal">Vrentika</span>
+        <span class="line-reveal italic">Uday Kiran</span>
+      </h1>
+      <p class="hero-role">B.Tech CSE Student <span class="sep">—</span> Full-Stack Developer</p>
+      <p class="hero-sub">Crafting seamless digital experiences through code, creativity, and curiosity.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Let's Connect</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-deco">
+      <div class="deco-ring ring1"></div>
+      <div class="deco-ring ring2"></div>
+      <div class="deco-dot-grid"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-img-frame">
+          <div class="about-initials">VUK</div>
+          <div class="frame-border"></div>
+          <div class="frame-accent"></div>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">94%</span>
+            <span class="stat-label">NPTEL Score</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">Who I Am</h2>
+        <p class="about-para">
+          I'm <strong>Vrentika Uday Kiran</strong>, a passionate B.Tech Computer Science and Engineering student with a love for building things that live on the internet. I believe that great software is born at the intersection of logic and creativity.
+        </p>
+        <p class="about-para">
+          My journey into tech started with curiosity and grew into a deep appreciation for full-stack development. From crafting pixel-perfect interfaces to architecting robust backends, I enjoy every layer of the stack.
+        </p>
+        <p class="about-para">
+          When I'm not coding, you'll find me exploring data analytics, sharpening my Java skills, or earning certifications to stay ahead of the curve.
+        </p>
+        <div class="about-tags">
+          <span class="tag">Problem Solver</span>
+          <span class="tag">Quick Learner</span>
+          <span class="tag">Team Player</span>
+          <span class="tag">Detail-Oriented</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title centered">Technical Arsenal</h2>
+    <p class="section-sub centered">Technologies I work with to build full-stack solutions</p>
+    <div class="skills-grid">
+
+      <div class="skill-card" data-level="85">
+        <div class="skill-icon"><i class="fab fa-java"></i></div>
+        <div class="skill-info">
+          <span class="skill-name">Java</span>
+          <span class="skill-type">Programming Language</span>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" data-width="85"></div>
+        </div>
+        <span class="skill-pct">85%</span>
+      </div>
+
+      <div class="skill-card" data-level="80">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <div class="skill-info">
+          <span class="skill-name">MySQL</span>
+          <span class="skill-type">Database</span>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" data-width="80"></div>
+        </div>
+        <span class="skill-pct">80%</span>
+      </div>
+
+      <div class="skill-card" data-level="90">
+        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+        <div class="skill-info">
+          <span class="skill-name">HTML5</span>
+          <span class="skill-type">Markup Language</span>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" data-width="90"></div>
+        </div>
+        <span class="skill-pct">90%</span>
+      </div>
+
+      <div class="skill-card" data-level="85">
+        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+        <div class="skill-info">
+          <span class="skill-name">CSS3</span>
+          <span class="skill-type">Styling</span>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" data-width="85"></div>
+        </div>
+        <span class="skill-pct">85%</span>
+      </div>
+
+      <div class="skill-card" data-level="78">
+        <div class="skill-icon"><i class="fab fa-js"></i></div>
+        <div class="skill-info">
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-type">Programming Language</span>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" data-width="78"></div>
+        </div>
+        <span class="skill-pct">78%</span>
+      </div>
+
+      <div class="skill-card" data-level="70">
+        <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+        <div class="skill-info">
+          <span class="skill-name">Node.js / Express</span>
+          <span class="skill-type">Backend Framework</span>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" data-width="70"></div>
+        </div>
+        <span class="skill-pct">70%</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title">Featured Work</h2>
+    <div class="projects-container">
+
+      <div class="project-card featured">
+        <div class="project-number">01</div>
+        <div class="project-content">
+          <div class="project-tags-top">
+            <span class="p-tag">Full-Stack</span>
+            <span class="p-tag">Data Analytics</span>
+            <span class="p-tag">MySQL</span>
+          </div>
+          <h3 class="project-title">SpendIQ</h3>
+          <p class="project-subtitle">Personal Expense Analyzer</p>
+          <p class="project-desc">
+            A full-stack web application that helps users track, analyze, and visualize their personal expenses. Features smart categorization, monthly summaries, trend analysis, and actionable insights to improve financial habits.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MySQL</span>
+          </div>
+          <div class="project-features">
+            <div class="feature"><i class="fas fa-check-circle"></i> Expense tracking & categorization</div>
+            <div class="feature"><i class="fas fa-check-circle"></i> Visual analytics dashboard</div>
+            <div class="feature"><i class="fas fa-check-circle"></i> Monthly & yearly trend reports</div>
+            <div class="feature"><i class="fas fa-check-circle"></i> Budget goal setting & alerts</div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-btn"><i class="fab fa-github"></i> Source Code</a>
+            <a href="#" class="proj-btn outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
+        <div class="project-visual">
+          <div class="mock-browser">
+            <div class="browser-bar">
+              <div class="browser-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="browser-url">spendiq.app</div>
+            </div>
+            <div class="browser-content">
+              <div class="mock-header">SpendIQ Dashboard</div>
+              <div class="mock-stats">
+                <div class="mock-stat">
+                  <div class="mock-stat-val">₹12,450</div>
+                  <div class="mock-stat-label">This Month</div>
+                </div>
+                <div class="mock-stat">
+                  <div class="mock-stat-val">₹8,200</div>
+                  <div class="mock-stat-label">Budget Left</div>
+                </div>
+                <div class="mock-stat">
+                  <div class="mock-stat-val">23</div>
+                  <div class="mock-stat-label">Transactions</div>
+                </div>
+              </div>
+              <div class="mock-chart">
+                <div class="bar-chart">
+                  <div class="bar-item"><div class="bar-fill" style="height:60%"></div><span>Jan</span></div>
+                  <div class="bar-item"><div class="bar-fill" style="height:80%"></div><span>Feb</span></div>
+                  <div class="bar-item"><div class="bar-fill" style="height:45%"></div><span>Mar</span></div>
+                  <div class="bar-item"><div class="bar-fill" style="height:90%"></div><span>Apr</span></div>
+                  <div class="bar-item"><div class="bar-fill active" style="height:70%"></div><span>May</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certifications" id="certifications">
+    <div class="section-label">04 — Certifications</div>
+    <h2 class="section-title centered">Credentials</h2>
+    <p class="section-sub centered">Verified achievements that validate my skills</p>
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <div class="cert-icon">
+          <i class="fab fa-js"></i>
+        </div>
+        <div class="cert-body">
+          <div class="cert-issuer">Cisco</div>
+          <h3 class="cert-title">JavaScript Essentials 1</h3>
+          <p class="cert-desc">Foundational JavaScript programming concepts, syntax, and application development fundamentals.</p>
+          <div class="cert-footer">
+            <span class="cert-badge">Verified</span>
+            <a href="#" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon analytics">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="cert-body">
+          <div class="cert-issuer">Deloitte</div>
+          <h3 class="cert-title">Data Analytics Job Simulation</h3>
+          <p class="cert-desc">Real-world data analytics tasks including data cleaning, visualization, and deriving business insights.</p>
+          <div class="cert-footer">
+            <span class="cert-badge">Verified</span>
+            <a href="#" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon java">
+          <i class="fab fa-java"></i>
+        </div>
+        <div class="cert-body">
+          <div class="cert-issuer">NPTEL</div>
+          <h3 class="cert-title">Programming in Java</h3>
+          <p class="cert-desc">Comprehensive Java programming course covering OOP, data structures, algorithms, and software design principles.</p>
+          <div class="cert-footer">
+            <span class="cert-badge gold">Score: 94%</span>
+            <a href="#" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-label">05 — Contact</div>
+    <div class="contact-wrapper">
+      <div class="contact-left">
+        <h2 class="section-title">Let's Build<br><span class="italic">Something Great</span></h2>
+        <p class="contact-sub">Have an opportunity, project idea, or just want to say hello? My inbox is always open.</p>
+        <div class="contact-details">
+          <a href="mailto:vrentika@example.com" class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">vrentika@example.com</div>
+            </div>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">linkedin.com/in/vrentika</div>
+            </div>
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <div class="contact-value">github.com/vrentika</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width" id="submitBtn">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent successfully! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">VUK<span>.</span></div>
+      <p class="footer-text">Crafted with <i class="fas fa-heart"></i> by Vrentika Uday Kiran</p>
+      <p class="footer-copy">&copy; 2026 All rights reserved.</p>
+    </div>
+    <div class="footer-bg-text">VRENTIKA</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
